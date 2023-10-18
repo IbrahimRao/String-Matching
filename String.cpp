@@ -17,7 +17,7 @@ int main(int argc, const char * argv[]) {
     cout << "Enter the number of the Test Case you want to run: ";
     cin >> num_cases;
     
-    ifstream file("p1_input.txt");
+    ifstream file("TestCase.txt");
     string line;
     
     vector<vector<string>> groups;
